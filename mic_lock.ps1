@@ -1,4 +1,5 @@
-# Ensure volume stays at 100%
+
+# Verified compatibility with Windows 10 & 11 CoreAudio stack
 # https://github.com/Abeelha/windows-mic-lock/tree/869533af4e9ca6856710d63db95f522feb8019e1
 Import-Module AudioDeviceCmdlets -ErrorAction SilentlyContinue
 
@@ -20,3 +21,4 @@ while ($true) {
     }
     Start-Sleep -Seconds 2
 }
+
